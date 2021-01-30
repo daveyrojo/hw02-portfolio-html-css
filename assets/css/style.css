@@ -1,0 +1,43 @@
+* {
+    background-color: black;
+    color: white;
+
+}
+
+.navigation, div, ul, li, a {
+    background-color: blue;
+    display: auto;
+    text-align: left;
+    justify-content: left;
+}
+.navigation {
+    border: solid 1px gray;
+}
+
+.contact {
+    font-size: 0.8em;
+}
+
+.dave-pic {
+    height: auto;
+    width: 10px;
+    align-items: left;
+}
+
+.about {
+    height: 600px;
+    width: 40%;
+    border: 1px solid gray;
+    display: left;
+    background-color: black;
+    text-align: center;
+}
+
+.portfolio {
+    height: 600px;
+    width: 40%;
+    border: 1px solid gray;
+    position: right;
+    background-color: black;
+    text-align: center;
+}
