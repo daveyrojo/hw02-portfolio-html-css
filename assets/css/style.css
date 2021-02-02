@@ -23,6 +23,7 @@ a {
     text-decoration: none;
     text-align: center;
     margin-right: 50px;
+    font-size: 1.1em;
 }
 
 .sideBar{
@@ -50,6 +51,30 @@ a {
     margin-right: 18px;
 }
 
+#portfolio {
+    border: 20px;
+}
+
+#port-image {
+    width: 40%;
+    height: 45%;
+    border: 40%;
+    border-radius: 30px;
+    border: 4px solid white;
+    transition: transform .15s;
+}
+
+#port-image2 {
+    width: 40%;
+    height: 50%;
+    border-radius: 30px;
+    border: 4px solid white;
+    transition: transform .2s;
+}
+
+#port-image:hover, #port-image2:hover {
+    transform: scale(1.05);
+}
 h2 {
     margin: 25px;
     color: white;
