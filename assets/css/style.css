@@ -61,7 +61,7 @@ a {
     border: 40%;
     border-radius: 30px;
     border: 4px solid white;
-    transition: transform .15s;
+    transition: transform .1s;
 }
 
 #port-image2 {
