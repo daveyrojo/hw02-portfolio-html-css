@@ -1,5 +1,9 @@
 # HW 02 HTML + CSS: Beginning Portfolio
 
+## Deployed Site:
+
+https://daveyrojo.github.io/portfolio-html-css/
+
 ## Goal:
 
 The goal of the assignment was to present a webpage designed with HTML and CSS. It
