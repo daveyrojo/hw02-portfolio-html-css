@@ -1,8 +1,8 @@
-
+/* Sets background for body of page, and sides/top margins */
 body {
     background-color:  rgba(0, 47, 255, 0.479);
 }
-
+/* Determines how the Name and Nav are styled */
 .header {
     padding: 20px;
     font-family: 'Courier New', Courier, monospace;
@@ -10,7 +10,7 @@ body {
     text-align: center;
     background-color:rgba(17, 0, 255, 0.801);
 }
-
+/* Styles the h1 tag */
 .header h1 {
     display: inline-block;
     font-size: 50px;
@@ -18,6 +18,7 @@ body {
     text-decoration: underline;
 }
 
+/* Styles the links on the page */
 a {
     color: white;
     text-decoration: none;
@@ -26,35 +27,41 @@ a {
     font-size: 1.1em;
 }
 
-.sideBar{
+/* Center the subTitle tag */
+.subTitle {
     text-align: center;
-
 }
 
+/* Styles the subtitle texts */
+h2 {
+    margin: 25px;
+    color: white;
+    text-decoration: underline;
+}
+
+/* Styles the profile pic */
 .dave-pic {
     height: 25%;
     width: 25%;
-    border-color:  rgba(0, 47, 255, 0.479);
     border-radius: 55%;
+    border: 10px double white;
     margin-top: 10px;
 }
 
-.sideContent {
+/* Styles and positions the content of the sections */
+.content {
     text-align: center;
     color: white;
     margin-left: 60px;
     margin-right: 60px;
     line-height: 30px;
-}
-
-.portfolio-link {
-    margin-right: 18px;
-}
-
-#portfolio {
+    border-bottom: 3px double white;
     border: 20px;
+    border-bottom: 3px double white;
+    padding-bottom: 2.5%;
 }
 
+/* Styles the place holder pictures in the page */
 #port-image {
     width: 40%;
     height: 45%;
@@ -64,30 +71,22 @@ a {
     transition: transform .1s;
 }
 
-#port-image2 {
-    width: 40%;
-    height: 50%;
-    border-radius: 30px;
-    border: 4px solid white;
-    transition: transform .2s;
-}
-
-#port-image:hover, #port-image2:hover {
+/* Makes the portfolio images enlarge on hover */
+#port-image:hover {
     transform: scale(1.05);
 }
-h2 {
-    margin: 25px;
-    color: white;
-    text-decoration: underline;
-}
 
+/* Styles the contact info and the LinkedIn/GitHub links */
 .contact-content, .contact-content a {
     text-align: center;
     color: white;
     margin-left: 60px;
     margin-right: 60px;
     line-height: 30px;
+    padding-bottom: 2.5%;
 }
+
+/* Sets text size for pre elements */
 
 pre {
     font-size: 1.2em;

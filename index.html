@@ -7,7 +7,7 @@
     <title>David Eldridge: Web Development</title>
 </head>
     <body>
-
+        <!-- first Header class seperates my name and navigation from the rest of the page -->
         <div class="header">
             <h1>David Eldridge</h1>
             <a href="#portfolio">Portfolio.</a>
@@ -17,32 +17,36 @@
 
         </div>
 
+        <!-- subTitle class helps make code DRY so I can duplicate sections and reference less CSS code -->
         <section>
-            <div class="sideBar">
+            <div class="subTitle">
                 <img class="dave-pic" src="assets/img/Rutgers.jpg" alt="picture of Dave">
                 <h2>
                     About Me.
                 </h2>
             </div>
-            <div class="sideContent" id="about-me">
+            <div class="content" id="about-me">
                 <p id="brand-statement">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus doloremque exercitationem possimus aliquam quas, nihil perferendis doloribus at error magni id tempora aliquid illum vero earum explicabo excepturi accusamus ab.
+                    Well for starters my name, clearly, is David Eldridge! I have 12 years of management experience - close to half my life! - and I am so excited to bring those soft skills to the tech world. After graduating college (with a triple major) I had wanted to get into coding but an upside down economy and a need to alleviate my student loan debt I abstained for seeral years.
+                    During that time I had a 6 year career with Enterprise Rent-A-Car working my way from Management Trainee to District Manager. After stepping away to focus on my family and find what I really wanted to do with my life I looked into a large array of carreer choices. From being an insurance agent, to a call center manager, to the medical field nothing scratched the itch I had. That itch was to be challenged everyday and work in a logical yet creative field. I started to teach myself coding and quickly realized this is what I wanted to do. With a wide array of specialties to companies and market sectors it was specific enough to know what my next step would be but also broad enough to feel like I wasn't going to get trapped in something overly specific too early. I did a lot of research in different programs and found the Rutgers program to strike the right balance of price, career services, and time. I am extremely proud, excited and motivated to ace the Rutgers Boot Camp program and help as many fellow students as possible. If you've made it this far thank you for your time and I hope to be working with you in the future!
                 </p>
             </div>
         </section>
 
         <section>
-            <div class="sideBar">
+            <div class="subTitle">
 
                 <h2>
                     Portfolio.
                 </h2>
             </div>
-            <div class="sideContent" id="portfolio">
-<pre>Project 1.                                              Project 2.</pre>
-                <img src="assets/img/scifi.jpg" rel="SciFi Pic" id="port-image2">
 
-                <img src="assets/img/web_domain.jpg" rel="Clicking Web Apps" id="port-image2">
+            <!-- Used <pre> tag to help position quickly because I was in a time crunch -->
+            <div class="content" id="portfolio">
+<pre>Project 1.                                              Project 2.</pre>
+                <img src="assets/img/scifi.jpg" rel="SciFi Pic" id="port-image">
+
+                <img src="assets/img/web_domain.jpg" rel="Clicking Web Apps" id="port-image">
 <pre>Project 3.                                              Project 4.</pre>
 
                <img src="assets/img/mac-book.jpg" rel="Mac-Book On Desk" id="port-image">
@@ -54,7 +58,7 @@
 
 
 
-        <div class="sideBar">
+        <div class="subTitle">
                 <h2>
                     Contact Info.
                 </h2>
